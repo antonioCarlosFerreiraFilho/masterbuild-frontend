@@ -1,0 +1,70 @@
+@media screen and (min-width: 358px) {
+  .Contact {
+
+    background-color: rgb(139, 24, 24);
+  }
+
+  .Contact_content {
+
+    padding: 1rem;
+  }
+
+  .Contact_content h1 {
+
+    color: white;
+    margin: 1rem 0 .50rem 0;
+  }
+
+  .Contact_content p {
+
+    color: white;
+    margin: 0 0 0 0;
+  }
+
+  .Contact_iconsSocial {
+
+    color: rgb(213, 205, 205);
+
+    font-size: 1.5rem;
+    margin: 20px 40px 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .Contact_content {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .Contact_content {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem .50rem 1rem .50rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Contact {
+    background-color: rgb(139, 24, 24);
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Contact_content {
+
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,236 @@
+@media screen and (min-width: 358px) {
+
+  @keyframes AnimaTXT {
+
+    0% {
+  
+      opacity: 0;
+      transform: translateX(+50px);
+    }
+  }
+
+  .BannerInfinite {
+
+    margin-top: 4rem;
+    position: relative;
+  }
+
+  .BannerInfinite_contentGeneral {
+
+    z-index: -100;
+  }
+
+  .BannerInfinite_carrossel {
+
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+
+  .BannerInfinite_shadow {
+
+    background-color: #00000070;
+
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+  }
+
+  .BannerInfinite_container {
+
+    display: flex;
+    transition: 0.9s ease-in-out all;
+    transform: translateX(0);
+  }
+
+  .BannerInfinite_container img {
+
+    width: 100%;
+    height: 400px;
+  }
+
+  .BannerInfinite_content-infos {
+
+    position: absolute;
+    top: 3%;
+
+    text-align: center;
+    z-index: 200;
+    box-sizing: border-box;
+    padding: .30rem;
+  }
+
+  .BannerInfinite_content-infos h1 {
+
+    color: white;
+
+    font-size: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .BannerInfinite_content-infos p {
+
+    color: rgb(252, 251, 255);
+
+    font-size: 1.1rem;
+    line-height: 25px;
+    font-family: "Anta", sans-serif;
+
+    margin: 0 0 3rem 0;
+  }
+
+  .BannerInfinite_content-infos p {
+
+    animation: AnimaTXT .4s linear .4s backwards;
+  }
+
+  .BannerInfinite_box-link {
+
+    margin-top: 1.5rem;
+  }
+
+  .BannerInfinite_box-link a{
+
+    background-color: rgb(205, 140, 20);
+    color: white;
+
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: "Anta", sans-serif;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.9s ease-in-out all;
+  }
+
+  .BannerInfinite_box-link a:hover {
+
+    transition: 0.9s ease-in-out all;
+    padding: 10px 80px;
+  }
+
+  .BannerInfinite_scratched {
+
+    background-image: url("../../../public/backgroud/rasgado.png");
+    background-repeat: repeat-x;
+
+    width: 100%;
+    height: 35px;
+    z-index: 200;
+
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 478px) {
+  
+  .BannerInfinite_carrossel {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .BannerInfinite_content-infos {
+
+    width: 478px;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+
+  .BannerInfinite_container img {
+
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 740px) {
+
+  .BannerInfinite_container img {
+
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  .BannerInfinite_carrossel {
+
+    height: 500px;
+  }
+
+  .BannerInfinite_shadow {
+
+    height: 500px;
+  }
+
+  .BannerInfinite_container img {
+
+    width: 100%;
+    height: 1000px;
+  }
+
+  .BannerInfinite_content-infos {
+    top: 13%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  .BannerInfinite_container img {
+
+    width: 100%;
+    height: 2000px;
+  }
+
+  .BannerInfinite_carrossel {
+
+    height: 700px;
+  }
+
+  .BannerInfinite_shadow {
+
+    height: 700px;
+  }
+
+  .BannerInfinite_content-infos h1 {
+
+    color: white;
+
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin: 1.3rem 0 1.5rem 0;
+  }
+
+  .BannerInfinite_content-infos p {
+
+    color: rgb(251, 251, 252);
+
+    font-size: 1.3rem;
+    line-height: 29px;
+
+    margin: 0 0 3.2rem 0;
+  }
+
+  .BannerInfinite_box-link a{
+  
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: "Anta", sans-serif;
+    padding: 15px 85px;
+    transition: 0.9s ease-in-out all;
+  }
+
+  .BannerInfinite_content-infos {
+
+    width: 770px;
+  }
+}

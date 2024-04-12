@@ -1,0 +1,168 @@
+@media screen and (min-width: 358px) {
+
+  .CardProject {
+
+    margin-top: 5rem;
+    padding: .70rem;
+  }
+
+  .CardProject_content-box {
+
+    position: relative;
+    cursor: pointer;
+
+    margin: 3rem 0 0 0;
+  }
+
+  .CardProject_content-box a {
+
+    text-decoration: none;
+  }
+
+  .CardProject_content-box:hover img {
+
+    transition: .9s ease-in-out all;
+    transform: scale(1.3);
+    z-index: -100;
+  }
+
+  .CardProject_shadowBox {
+
+    transition: .9s ease-in-out all;
+    width: 100%;
+    height: 400px;
+
+    position: absolute;
+    top: 0px;
+    z-index: 200;
+    border-radius: 20px 20px 5px 5px;
+  }
+
+  .CardProject_content-box:hover .CardProject_shadowBox {
+
+    transition: .9s ease-in-out all;
+    box-shadow: rgba(215, 212, 212, 0.2) 0px -50px 65px 20px inset, rgba(124, 122, 122, 0) 0px -0px 0px 0px inset, rgba(16, 16, 16, 0.5) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+
+  .CardProject_content-infos {
+
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px 10px 5px 5px;
+  }
+
+  .CardProject_content-box img {
+
+    width: 100%;
+    height: 500px;
+    transition: .9s ease-in-out all;
+    z-index: -100;
+  }
+
+  .CardProject_content-box:hover .CardProject_content-nameCard {
+
+    transition: .9s ease-in-out all;
+    bottom: 5%;
+  }
+
+  .CardProject_content-nameCard {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    transition: .9s ease-in-out all;
+    z-index: 400;
+  }
+
+  .CardProject_content-nameCard h1 {
+
+    color: rgb(26, 25, 25);
+
+    font-family: "Bebas Neue", sans-serif;
+
+    letter-spacing: 2px;
+  }
+
+  .CardProject_linkCard-id {
+
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 400px) {
+
+  .CardProject_content-box {
+
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 450px) {
+
+  .CardProject {
+
+    background-color: rgb(238, 234, 234);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    padding-bottom: 4rem;
+  }
+
+  .CardProject_content-box {
+
+    width: 400px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .CardProject_boxes-content {
+
+    background-color: rgb(238, 234, 234);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    padding-bottom: 4rem;
+  }
+
+  .CardProject_content-box {
+
+    width: 46%;
+  }
+
+}
+
+@media screen and (min-width: 890px) {
+
+  .CardProject_content-box {
+
+    max-width: 400px;
+  }
+
+  .CardProject_boxes-content {
+
+    max-width: 1500px;
+  }
+
+}
+
+@media screen and (min-width: 1800px) {
+
+  .CardProject_boxes-General {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,117 @@
+@media screen and (min-width: 350px) {
+
+  .WhoWeAre {
+
+    background-image: url("../../../public/backgroud/WhoWeAre.jpg");
+    background-position: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .WhoWeAre_content-shadow {
+
+    width: 100%;
+    background-color: #00000080;
+    padding: .70rem;
+    box-sizing: border-box;
+
+  }
+
+  .WhoWeAre_info p {
+
+    color: white;
+
+    margin: 0.90rem 0 0 0;
+  }
+
+  .WhoWeAre_info h1 {
+
+    color: white;
+
+    margin: 0.90rem 0 0 0;
+  }
+
+  .WhoWeAre_info p {
+
+    font-size: 1.1rem;
+  }
+
+  .WhoWeAre_info h1 {
+
+    color: orange;
+
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .WhoWeAre_professionals {
+
+    margin-top: 2rem;
+  }
+
+  .WhoWeAre_professionals h1 {
+
+    color: #fdf9f5;
+
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .WhoWeAre_professionals ul {
+
+    margin: 2rem 0 2rem 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .WhoWeAre_professionals li {
+
+    color: white;
+
+    font-family: "Anta", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+    margin-top: .50rem;
+  }
+}
+
+@media screen and (min-width: 590px) {
+
+  .WhoWeAre {
+
+    background-image: url("../../../public/backgroud/All.jpg");
+    background-position: 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 665px) {
+
+  .WhoWeAre_info {
+
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .WhoWeAre-general {
+
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  .WhoWeAre-general {
+
+    width: 60%;
+  }
+}

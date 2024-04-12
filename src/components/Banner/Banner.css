@@ -1,0 +1,386 @@
+@media screen and (min-width: 358px) {
+
+  @keyframes AnimaCard {
+
+    0% {
+
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+  }
+
+  @keyframes AnimaSlogan {
+
+    0% {
+
+      opacity: 0;
+      transform: translateY(90px);
+    }
+  }
+
+  @keyframes phone-shaking {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    25% {
+      transform: rotate(5deg);
+    }
+
+    50% {
+      transform: rotate(0eg);
+    }
+
+    75% {
+      transform: rotate(-5deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .Banner {
+
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 3.4rem;
+
+    background-image: url("../../../public/banner/banner_01.png");
+    background-position: 73%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: rgba(0, 0, 0, 0.90) 0px -110px 76px -68px inset;
+
+    position: relative;
+  }
+
+  .Banner_content-info {
+
+    background: #00000075;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: .70rem;
+
+    box-sizing: border-box;
+  }
+
+  .Banner_slogan-animate {
+
+    animation: AnimaCard .4s linear .4s backwards;
+  }
+
+  .Banner_slogan {
+
+    animation: AnimaSlogan .4s linear .4s backwards;
+  }
+
+  .Banner_content-info h1 {
+
+    color: rgb(255, 255, 255);
+
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    font-family: "Bebas Neue", sans-serif;
+
+    margin: 0;
+    margin-top: 2.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .Banner_content-info p {
+
+    color: rgb(255, 247, 247);
+
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    line-height: 35px;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .Banner_boxes {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 2rem;
+  }
+
+  .Banner_box-links {
+
+    padding: 15px 20px;
+    border: 1px solid white;
+
+    transition: all 600ms;
+    cursor: pointer;
+  }
+
+  .Banner_box-links:hover {
+
+    transition: all 600ms;
+    background-color: #FF000080;
+  }
+
+  .link-project {
+
+    background-color: #FF000050;
+  }
+
+  .Banner_link {
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+
+
+  /*PHONE CONTACT STYLE*/
+
+  .Banner_box_Contact-Phone {
+
+    width: 100%;
+
+    margin-top: 2.4rem;
+  }
+
+  .Banner_box_Link-phone {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Banner_box_Link-phone a {
+
+    background-color: #10e41090;
+
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+  }
+
+  .Banner_box_icon-Phone {
+
+    color: white;
+
+    font-size: 1.2rem;
+
+    animation: phone-shaking .4s linear .4s infinite;
+  }
+
+  .Banner_box_number-Contact {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Banner_box_number-Contact p {
+
+    font-size: 1.2rem;
+  }
+
+  .Banner_scratched {
+
+    width: 100%;
+    height: 40px;
+
+    background-image: url("../../../public/backgroud/rasgado.png");
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: cover;
+    backface-visibility: visible;
+  }
+}
+
+@media screen and (min-width: 360px) {
+
+  .Banner {
+
+    height: auto;
+  }
+
+  .Banner_content-info {
+
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 390px) {
+
+  .Banner {
+
+    height: auto;
+  }
+
+  .Banner_content-info {
+
+    height: auto;
+  }
+
+  .Banner_content-info h1 {
+
+    margin-top: 3.5rem;
+  }
+
+  .Banner_boxes {
+
+    margin-top: 4rem;
+  }
+
+
+}
+
+
+@media screen and (min-width: 410px) {
+
+  .Banner {
+
+    height: auto;
+  }
+
+  .Banner_content-info {
+
+    height: auto;
+  }
+
+  .Banner_content-info h1 {
+
+    margin-top: 3.5rem;
+  }
+
+  .Banner_boxes {
+
+    margin-top: 2rem;
+  }
+
+  .Banner_box_Contact-Phone {
+
+    margin-top: 1.1rem;
+  }
+
+
+}
+
+@media screen and (min-width: 450px) {
+
+  .Banner {
+
+    height: auto;
+  }
+
+  .Banner_content-info {
+
+    height: auto;
+  }
+
+  .Banner_content-info {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Banner_slogan-animate {
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .Banner_slogan {
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+
+  .Banner_box_Contact-Phone {
+
+    display: none;
+  }
+
+  .Banner_boxes {
+
+    margin-top: 7rem;
+  }
+
+  .Banner_scratched {
+
+    display: none;
+  }
+
+  .Banner_boxInfos {
+
+    max-width: 700px;
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 725px) {
+
+  .Banner_boxInfos {
+
+    max-width: 700px;
+    padding-bottom: 9rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .Banner_link {
+
+    padding: 10px 60px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+
+  .Banner {
+
+    height: auto;
+  }
+
+  .Banner_content-info {
+
+    height: auto;
+  }
+
+  .Banner_boxInfos {
+
+    margin-top: 3rem;
+    padding-bottom: 19rem;
+    max-width: 800px;
+  }
+}

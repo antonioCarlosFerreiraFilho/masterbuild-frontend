@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+
+  .NavbarDesk {
+
+    width: 450px;
+  }
+
+  .NavbarDesk_links {
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .NavbarDesk_links a {
+
+    color: black;
+
+    font-size: 1.4rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+
+  }
+}

@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+//react
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+//Pages
+import Home from "./pages/Home/Home";
+import Services from "./pages/Services/Services";
+import Projects from "./pages/Projects/Projects";
+import Contact from "./pages/Contact/Contact";
+import Article from './pages/Article/Article';
+import Auth from "./pages/Auth/Auth";
+import Candidate from "./pages/Candidate/Candidate";
+//components
+import Navbar from "./components/Navbar/Navbar";
+import LateralMenu from "./components/LateralMenu/LateralMenu";
+//hook authUser
+import { useAuth } from './hooks/useAuth';
 
 function App() {
+
+  const {auth, loading} = useAuth();
+
+  if(loading) {
+
+    return <p>Loading.......</p>
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <LateralMenu />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/article/:id" element={<Article />} />
+          <Route path="/auth" element={!auth ? <Auth /> : <Navigate to="/" /> } />
+          <Route path="/candidate" element={<Candidate />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

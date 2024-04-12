@@ -1,0 +1,111 @@
+@media screen and (min-width: 358px) {
+
+  .FormVacancies {
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("../../../public/backgroud/All.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .FormVacancies_info {
+
+    width: 100%;
+    height: 100vh;
+
+    padding: .70rem;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FormVacancies_form-box {
+
+    background-color: #00000090;
+    padding: .40rem;
+    box-sizing: border-box;
+
+    border-radius: 10px;
+  }
+
+  .FormVacancies_form {
+
+    width: 300px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .FormVacancies_form label {
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 1rem;
+  }
+
+  .FormVacancies_form span {
+
+    color: rgb(246, 244, 240);
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: .50rem;
+  }
+
+  .FormVacancies_form input {
+
+    width: 100%;
+    height: 30px;
+
+    outline: none;
+    border: none;
+
+    padding: 0;
+    padding: .10rem;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .FormVacancies_form textarea {
+
+    font-size: 1rem;
+    padding: .10rem;
+    font-family: sans-serif;
+  }
+
+  .FormVacancies_form textarea::placeholder {
+
+    padding: .10rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .FormVacancies_form-submit input {
+
+    background-color: rgb(222, 150, 16);
+    color: white;
+
+    width: 100%;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .FormVacancies_form {
+
+    width: 400px;
+    height: 500px;
+  }
+}

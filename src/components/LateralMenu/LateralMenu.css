@@ -1,0 +1,153 @@
+@media screen and (min-width: 358px) {
+
+  .LateralMenu {
+
+    background-color: rgb(253, 250, 250);
+
+    width: 100vw;
+    height: 0px;
+
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+
+    visibility: hidden;
+    overflow-y: hidden;
+
+    transition: .9s;
+  }
+
+  .LateralMenuJS {
+
+    background-color: rgb(253, 250, 250);
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 1000;
+    position: fixed;
+    opacity: 1;
+
+    visibility: visible;
+    transition: .9s;
+  }
+
+  .LateralMenu_box-contentifo {
+
+    margin-top: 5rem;
+  }
+
+  .LateralMenu_user-name_user-image {
+
+    background-color: rgb(250, 250, 250);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: .30rem 0 .30rem 0;
+  }
+
+  .LateralMenu_user-image {
+
+    background-image: url("../../../public/userDefault/Man.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    border: 2px solid rgb(13, 13, 13);
+
+    margin-right: 15px;
+  }
+
+  .LateralMenu_user-name_user-image a {
+
+    color: rgb(6, 6, 6);
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .LateralMenu_boxContent {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .LateralMenu_Content-Links {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 3rem 0 0 0;
+  }
+
+  .LateralMenu_Link {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 2rem;
+  }
+
+  .LateralMenu_boxButtons {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 1rem 0 1rem 0;
+  }
+
+  .LateralMenu_Button_link {
+
+    background-color: rgb(157, 10, 10);
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 35px;
+    border-radius: 13px;
+
+    cursor: pointer;
+  }
+
+  .LateralMenu_Button_box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .LateralMenu_Button_box p {
+
+    margin-left: 20px;
+  }
+
+  .LateralMenu_Button_link_reservations {
+
+    background-color: rgb(202, 67, 67);
+    color: rgb(247, 245, 245);
+
+    text-decoration: none;
+    border: 1px solid rgb(157, 10, 10);
+    font-weight: 600;
+    padding: 14px 41px;
+    border-radius: 13px;
+    cursor: pointer;
+  }
+}

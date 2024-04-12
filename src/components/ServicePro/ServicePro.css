@@ -1,0 +1,149 @@
+@media screen and (min-width: 358px) {
+
+  .ServicePro {
+
+    padding-top: 3rem;
+    position: relative;
+
+    z-index: 100;
+  }
+
+  .ServicePro_boxContent-image {
+
+    width: 100%;
+  }
+
+  .ServicePro_boxContent-image img {
+
+    width: 100%;
+  }
+
+  .ServicePro_content-info {
+
+    padding: 1rem;
+  }
+
+  .ServicePro_Line {
+
+    background-color: rgb(230, 35, 35);
+
+    width: 50px;
+    height: 2px;
+  }
+
+  .ServicePro_content-info h1 {
+
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Anta", sans-serif;
+    letter-spacing: 1px;
+
+    margin: .30rem 0 0 0;
+  }
+
+  .ServicePro_content-info p {
+
+    color: rgb(65, 61, 61);
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+  }
+}
+
+@media screen and (min-width: 580px) {
+
+  .ServicePro_boxContent-image {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+
+    margin-bottom: 1.3rem;
+  }
+
+  .ServicePro_boxContent-image img {
+
+    width: 500px;
+    height: 330px;
+
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  .ServicePro_content-info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+    text-align: end;
+    padding: 1rem;
+  }
+
+  .ServicePro_content-infoDesk {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    text-align: start;
+    padding: 1rem;
+  }
+
+  .ServicePro_boxContent-imageDesk {
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+}
+
+@media screen and (min-width: 680px) {
+
+  .ServicePro_boxContent-image img {
+
+    width: 500px;
+    height: 350px;
+
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  .ServicePro_contentTXT {
+
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .ServicePro {
+
+    padding-top: 6rem;
+  }
+
+  .ServicePro_content-cards {
+
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .CardsProjects-card {
+
+    transform: translateX(-50vw);
+    transition: all ease-in-out 1s;
+    opacity: 0;
+
+    padding-bottom: 5rem;
+  }
+
+  .animate {
+
+    transform: translateX(0px);
+    transition: all ease-in-out 2s;
+    opacity: 1;
+  }
+}

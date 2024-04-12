@@ -1,0 +1,182 @@
+@media screen and (min-width: 358px) {
+
+  .Description {
+
+    margin-top: 2rem;
+  }
+
+  .Description_box {
+
+    padding: .70rem;
+
+    margin-bottom: 4rem;
+  }
+
+  .Description_content {
+
+    width: 100%;
+
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .Description_content img {
+
+    width: 100px;
+  }
+
+  .Description_content h1 {
+
+    color: rgb(182, 66, 24);
+    margin: 1rem 0 0 0;
+  }
+
+  .Description_line-backgroud {
+
+    background-image: url("../../../public/backgroud/lineRed.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100px;
+    height: 20px;
+  }
+
+  .Description_content-infos {
+
+    text-align: start;
+  }
+
+  .Description_content-infos p {
+
+    color: rgb(58, 57, 56);
+
+    font-size: 1rem;
+    line-height: 18px;
+    font-weight: 500;
+  }
+
+  .Description_contentLink {
+
+    margin-top: 2rem;
+  }
+
+  .Description_Link-contact {
+
+    background-color: #b83f3f;
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    border-radius: 5px 20px 20px 5px;
+
+    transition: all 600ms;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+  }
+
+  .Description_Link-contact:hover {
+
+    transition: all 600ms;
+    padding: 10px 70px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 478px) {
+
+  .Description {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .Description_box {
+
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 590px) {
+
+  .Description {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .Description_box {
+
+    width: 46%;
+  }
+
+  .Description_Link-contact:hover {
+
+    transition: all 600ms;
+    background-color: #d44646;
+    padding: 10px 50px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .Description {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .Description_box {
+
+    width: 44%;
+  }
+
+  .Description_Link-contact:hover {
+
+    transition: all 600ms;
+    background-color: #d44646;
+    padding: 10px 50px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 840px) {
+
+  .Description_box {
+
+    max-width: 394px;
+  }
+
+  .Description_Link-contact:hover {
+
+    transition: all 600ms;
+    background-color: #d44646;
+    padding: 10px 70px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+
+  .Description_contentMedia {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Description {
+
+    max-width: 1650px;
+  }
+}

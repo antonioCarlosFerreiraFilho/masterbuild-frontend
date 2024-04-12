@@ -1,0 +1,32 @@
+@media screen and (min-width: 368px) {
+  .Services_Media {
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  
+  .Services_Res-tablet {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Services_infos {
+
+    width: 50%;
+  }
+
+  .Services_Res-vacancies{
+
+    width: 50%;
+  }
+}

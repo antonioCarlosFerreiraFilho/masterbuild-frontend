@@ -1,0 +1,24 @@
+@media screen and (min-width: 358px) {
+
+  .Whatsapp {
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    z-index: 1000;
+  }
+
+  .Whatsapp_box {
+
+    background-image: url("../../../public/logos/whatsapp_00.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 45px;
+    height: 45px;
+
+    box-sizing: border-box;
+    margin: 0 .30rem .30rem 0;
+  }
+}

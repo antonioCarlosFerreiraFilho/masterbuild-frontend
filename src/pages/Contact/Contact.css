@@ -1,0 +1,49 @@
+@media screen and (min-width: 358px) {
+
+
+  .Contact_Media {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Contact_Ads {
+
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+
+  .Contact_Media {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Contact_components {
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .Contact_Form {
+
+    width: 60%;
+  }
+
+  .Contact_Ads {
+
+    display: block;
+    width: 20%;
+  }
+}

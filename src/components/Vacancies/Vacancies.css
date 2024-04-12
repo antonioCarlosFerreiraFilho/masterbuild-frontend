@@ -1,0 +1,348 @@
+@media screen and (min-width: 358px) {
+
+  .Vacancies {
+
+    position: relative;
+  }
+
+  /*   FORM CANDIDATE   */
+
+  .Vacancies_Form-candidate {
+
+    background: radial-gradient(circle at 100%, rgb(31, 33, 123), rgb(25, 26, 67) 50%, #605570 75%, #100725 75%);
+    position: absolute;
+    top: 0;
+
+    visibility: hidden;
+    width: 100%;
+    height: 0px;
+    transition: all ease-in-out .5s;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .Vacancies_Form-content-box-icon {
+
+    width: 100%;
+  }
+
+  .Vacancies_Form-content-icon {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+    padding: 1rem 1rem 0rem 0;
+    box-sizing: border-box;
+  }
+
+  .Vacancies_Form-content-icon:nth-child(1) {
+
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .Vacancies_Form-candidate-block {
+    background: radial-gradient(circle at 100%, rgb(31, 33, 123), rgb(25, 26, 67) 50%, #605570 75%, #100725 75%);
+
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all ease-in-out .5s;
+  }
+
+  .Vacancies_Form-content-box {
+
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Vacancies_Form-content-infos {
+
+    background-color: #00000070;
+
+    width: 330px;
+    margin: 0 auto;
+
+    border: solid 1px rgb(40, 48, 134);
+    border-radius: 10px;
+  }
+
+  .Vacancies_Form-content-title {
+
+    margin-bottom: .40rem;
+  }
+
+  .Vacancies_Form-content-title h1 {
+
+    color: rgb(171, 153, 232);
+
+    text-align: start;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: .20rem 0 .10rem 2rem;
+  }
+
+  .Vacancies_Form-content-Line {
+
+    background-color: white;
+    width: 120px;
+    height: 1px;
+
+    margin-left: 2rem;
+  }
+
+  .Vacancies_Form {
+
+    padding: .50rem;
+  }
+
+  .Vacancies_Form label {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .Vacancies_Form span {
+
+    color: white;
+
+    text-transform: uppercase;
+    padding-bottom: .50rem;
+  }
+
+  .Vacancies_Form-inputs {
+
+    background: transparent;
+    color: white;
+
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+
+    border-bottom: 1px solid rgb(171, 153, 232);
+
+    font-size: 1.1rem;
+  }
+
+  .Vacancies_Form-Pro {
+
+    background: transparent;
+    color: rgb(117, 207, 28);
+
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(171, 153, 232);
+    padding-bottom: .20rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .Vacancies_Form-textArea {
+
+    background: transparent;
+    color: white;
+
+    width: 100%;
+    height: 100px;
+
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: .20rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(171, 153, 232);
+  }
+
+  .Vacancies_Form-textArea::placeholder {
+
+    color: white;
+
+    font-size: 1rem;
+    padding: .20rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+  }
+
+  .Vacancies_Form-box_button {
+
+    width: 100%;
+
+    margin-top: 1rem;
+  }
+
+  .Vacancies_Form-box_button input {
+
+    background: transparent;
+    color: white;
+
+    width: 60%;
+    height: 30px;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid rgb(127, 115, 185);
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+  }
+
+  .Vacancies_Form-box_button input:hover {
+
+    width: 70%;
+    transition: all ease-in-out .2s;
+  }
+
+  /*   FORM CANDIDATE   */
+
+  .Vacancies_box {
+
+
+    padding: .70rem;
+    margin-bottom: 2rem;
+  }
+
+  .Vacancies_title {
+
+    font-family: "Anta", sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  .Vacancies_info h1 {
+
+    color: orangered;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+    margin: 0;
+  }
+
+  .Vacancies_info p {
+
+    font-family: "Anta", sans-serif;
+    margin: 0.50rem 0 1rem 0;
+  }
+
+  .Vacancies_event button {
+
+    background-color: rgb(241, 15, 15);
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .9s all ease-in-out;
+    padding: 10px 20px;
+    border: none;
+  }
+
+  .Vacancies_event button:hover {
+
+    background-color: rgb(145, 49, 49);
+    transition: .9s all ease-in-out;
+  }
+
+  .formOcult {
+
+    display: none;
+  }
+
+  .Vacancies_error-views {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .Vacancies_boxes {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Vacancies_box {
+
+    max-width: 400px;
+  }
+
+  .Vacancies_event {
+
+    transition: all ease-in-out .9s;
+    margin-left: 10px;
+  }
+
+  .Vacancies_event:hover {
+
+    transition: all ease-in-out .9s;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .Vacancies {
+
+    width: 45%;
+    background-color: rgb(252, 250, 247);
+  }
+
+  .Vacancies_box {
+    padding: .70rem;
+    margin: 0 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Vacancies_Form-content-infos {
+
+    width: 430px;
+    margin: 0 auto;
+  }
+
+  .Vacancies_Form-content-title {
+
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  .Vacancies {
+
+    width: 40%;
+    background-color: rgb(252, 250, 247);
+  }
+}

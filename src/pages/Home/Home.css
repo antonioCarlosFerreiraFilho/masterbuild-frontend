@@ -1,0 +1,43 @@
+@media screen and (min-width: 358px) {
+  
+  .Home_Media {
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Home_Ads-Service {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Home_Ads {
+
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1495px) {
+
+  .Home_Ads-Service {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Home_Ads {
+
+    display: block;
+    width: 15%;
+  }
+
+  .Home_service {
+
+    width: 70%;
+  }
+}
