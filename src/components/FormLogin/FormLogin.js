@@ -45,7 +45,7 @@ const FormLogin = () => {
 
     setTimeout(() => {
       dispatch(reset());
-    }, 1000);
+    }, 4000);
   };
 
   //login User
