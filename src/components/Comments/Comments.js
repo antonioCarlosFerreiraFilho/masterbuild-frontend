@@ -5,11 +5,18 @@ import { useState, useEffect } from "react";
 //redux
 import { useDispatch, useSelector } from "react-redux";
 //slices
-import { commentProject } from "../../slices/projectSlice";
+import { commentProject, resetMessage } from "../../slices/projectSlice";
 //componets
 import MessageAuth from "../../components/MessageAuth/MessageAuth";
+//hooks
+import { useAuth } from "../../hooks/useAuth";
+//react icons
+import { GoAlertFill } from "react-icons/go";
 
 const Comments = () => {
+  //hooks
+  const { auth, loading } = useAuth();
+
   //redux
   const dispatch = useDispatch();
   const { project, message, error } = useSelector((state) => state.project);
@@ -28,6 +35,13 @@ const Comments = () => {
     };
 
     dispatch(commentProject(commenData));
+
+    setCommentText("");
+
+    setTimeout(()=> {
+
+      dispatch(resetMessage());
+    }, 4000);
   }
 
   return (
@@ -49,6 +63,15 @@ const Comments = () => {
                 <div className="Commetns_form-boxcontent-input">
                   <input type="submit" value="Comentar" />
                 </div>
+                {!auth && (
+                  <>
+                    <div className="Commetns_form_auth-content">
+                      <div className="Commetns_form-auth">
+                        <p>vocé precisa estar logado para comentar</p>
+                      </div>
+                    </div>
+                  </>
+                )}
               </form>
             </div>
             <div>

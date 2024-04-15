@@ -125,6 +125,9 @@
     padding: .30rem;
     box-sizing: border-box;
     font-size: 1.1rem;
+    font-family: sans-serif;
+    padding: .50rem;
+    box-sizing: border-box;
   }
 
   .Commetns_form-inpus textarea::placeholder {
@@ -161,6 +164,37 @@
     background-color: rgb(174, 122, 24);
     transition: all ease-in-out .3s;
     cursor: pointer;
+  }
+
+  .Commetns_form_auth-content {
+
+    background-color: #FF000080;
+
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 1rem;
+  }
+
+  .Commetns_form-auth {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: .50rem;
+    
+  }
+
+  .Commetns_form-auth p{
+
+    color: white;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    margin: 0;
   }
 }
 

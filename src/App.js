@@ -11,6 +11,7 @@ import Candidate from "./pages/Candidate/Candidate";
 //components
 import Navbar from "./components/Navbar/Navbar";
 import LateralMenu from "./components/LateralMenu/LateralMenu";
+import Loading from "./components/Loading/Loading";
 //hook authUser
 import { useAuth } from './hooks/useAuth';
 
@@ -20,7 +21,7 @@ function App() {
 
   if(loading) {
 
-    return <p>Loading.......</p>
+    return <Loading />
   };
 
   

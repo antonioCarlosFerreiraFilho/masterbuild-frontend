@@ -14,7 +14,10 @@ export const useAuth = () => {
       setAuth(false);
     }
 
-    setLoading(false);
+    setTimeout(()=> {
+      setLoading(false);
+    }, 1000);
+
   }, [user]);
 
   return { auth, loading };
