@@ -8,14 +8,18 @@ import { useDispatch, useSelector } from "react-redux";
 //slices
 import { allProjects } from "../../slices/projectSlice";
 import { uploads } from "../../utils/config";
+//components
+import Loading from "../../components/Loading/Loading";
 
 const CardProject = () => {
   //slices
-  const { projects } = useSelector((state) => state.project);
-  //redux
-  const dispatch = useDispatch();
+  const { projects, loading } = useSelector((state) => state.project);
 
+  //redux
+
+  const dispatch = useDispatch();
   //Rederizando
+
   useEffect(() => {
     dispatch(allProjects());
   }, [dispatch]);
@@ -73,23 +77,32 @@ const CardProject = () => {
 
   return (
     <div className="CardProject">
-      <div className="CardProject_boxes-General">
-        <div className="CardProject_boxes-content">
-          {projects.map((card) => (
-            <div className="CardProject_content-box" key={card._id}>
-              <NavLink to={`/article/${card._id}`}>
-                <div className="CardProject_shadowBox"></div>
-                <div className="CardProject_content-infos">
-                  <img src={`${uploads}/projects/${card.image[0]}`} alt="" />
+      {loading ? (
+        <Loading />
+      ) : (
+        <>
+          <div className="CardProject_boxes-General">
+            <div className="CardProject_boxes-content">
+              {projects.map((card) => (
+                <div className="CardProject_content-box" key={card._id}>
+                  <NavLink to={`/article/${card._id}`}>
+                    <div className="CardProject_shadowBox"></div>
+                    <div className="CardProject_content-infos">
+                      <img
+                        src={`${uploads}/projects/${card.image[0]}`}
+                        alt=""
+                      />
+                    </div>
+                    <div className="CardProject_content-nameCard">
+                      <h1>{card.title}</h1>
+                    </div>
+                  </NavLink>
                 </div>
-                <div className="CardProject_content-nameCard">
-                  <h1>{card.title}</h1>
-                </div>
-              </NavLink>
+              ))}
             </div>
-          ))}
-        </div>
-      </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };
