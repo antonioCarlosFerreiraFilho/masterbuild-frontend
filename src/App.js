@@ -38,7 +38,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/article/:id" element={<Article />} />
           <Route path="/auth" element={!auth ? <Auth /> : <Navigate to="/" /> } />
-          <Route path="/candidate" element={<Candidate />} />
         </Routes>
       </BrowserRouter>
     </div>
