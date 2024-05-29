@@ -43,12 +43,10 @@ const ServicePro = () => {
               <div className="ServicePro_contentTXT">
                 <h1>Eletricidade</h1>
                 <p>
-                  Nosso serviço de pintura residencial e externa oferece uma
-                  transformação completa para sua casa, adicionando beleza e
-                  proteção às superfícies internas e externas. Com uma equipe de
-                  pintores altamente qualificados e experientes, estamos
-                  comprometidos em fornecer resultados excepcionais que atendam
-                  às suas expectativas e excedam suas necessidades.
+                  Oferecemos serviços elétricos residenciais de alta qualidade,
+                  disponíveis 24 horas por dia, 7 dias por semana. Nossa equipe
+                  de eletricistas certificados está pronta para resolver
+                  qualquer problema elétrico com rapidez e segurança.
                 </p>
                 <p>
                   Seja para uma simples troca de lâmpadas ou uma remodelação
