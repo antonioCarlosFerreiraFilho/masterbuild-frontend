@@ -111,7 +111,7 @@ export const projectSlice = createSlice({
         state.loading = false;
         state.success = true;
         state.error = null;
- 
+
         state.project.comentarios.push(actions.payload.comentarios);
       })
       .addCase(commentProject.rejected, (state, actions) => {

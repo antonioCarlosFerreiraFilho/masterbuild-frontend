@@ -5,7 +5,7 @@ const Whatsapp = () => {
     <div className="Whatsapp">
       <div>
         <a
-          href="https://wa.me/351932015787?text=Alguma Duvida? Converse Connosco !!"
+          href="https://wa.me/351934897540?text=Alguma Duvida? Converse Connosco !!"
           target="_blank"
         >
           <div className="Whatsapp_box"></div>

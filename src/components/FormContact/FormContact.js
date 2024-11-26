@@ -35,7 +35,7 @@ const FormContact = () => {
     setLocalidade("");
     setPhone("");
     setDescription("");
-    
+
     setTimeout(() => {
       dispatch(reset());
     }, 4000);
@@ -55,7 +55,7 @@ const FormContact = () => {
           </div>
           <div className="FormContact_contentInfos_phone">
             <p>Preencha o formulario ou ligue:</p>
-            <p>(+351) 932 015 787</p>
+            <p>(+351) 934 897 540</p>
           </div>
           <div>
             <form className="FormContact_form" onSubmit={newContactClient}>
@@ -93,20 +93,18 @@ const FormContact = () => {
                 maxLength={140}
               ></textarea>
               <div className="FormContact_form_submit">
-                
                 {loading && (
                   <input type="submit" disabled value="aguarde......" />
                 )}
                 {!loading && <input type="submit" value="Pedir orçamento" />}
-               
               </div>
             </form>
           </div>
         </div>
         <div className="FormContact_form_Errors">
-          {error && (
-            <MessageAuth error={error} />
-          )}
+          {error && <MessageAuth error={error} />}
+
+          {message && <MessageAuth error={message} />}
         </div>
       </div>
     </div>

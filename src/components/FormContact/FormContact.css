@@ -76,6 +76,23 @@
 
   }
 
+  .FormContact_form textarea {
+
+    font-size: 1.1rem;
+
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: .5rem;
+  }
+
+  .FormContact_form textarea::placeholder {
+
+    font-size: 1.1rem;
+
+    box-sizing: border-box;
+    padding: .4rem;
+  }
+
   .FormContact_form_submit {
 
     margin-top: 2rem;
@@ -118,12 +135,12 @@
 
   .FormContact {
 
-
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 5rem;
 
+    
   }
 
 
@@ -146,7 +163,7 @@
     display: flex;
     align-items: center;
 
-    margin: 5rem 0 0 0;
+    margin: 5rem 0 5rem 0;
   }
 
   .FormContact_contentInfos_box {

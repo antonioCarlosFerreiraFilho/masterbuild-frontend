@@ -106,10 +106,10 @@ const LateralMenu = () => {
             </div>
             <div>
               <div className="LateralMenu_boxButtons">
-                <a href="tel:+351932015787" className="LateralMenu_Button_link">
+                <a href="tel:+351934897540" className="LateralMenu_Button_link">
                   <div className="LateralMenu_Button_box">
                     <FaPhoneAlt />
-                    <p>932 015 787</p>
+                    <p>934 897 540</p>
                   </div>
                 </a>
               </div>

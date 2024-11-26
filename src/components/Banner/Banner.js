@@ -31,13 +31,13 @@ const Banner = () => {
             </div>
             <div className="Banner_box_Contact-Phone">
               <div className="Banner_box_Link-phone">
-                <a href="tel:+351932015787">
+                <a href="tel:+351934897540">
                   <FaPhoneAlt className="Banner_box_icon-Phone"/>
                 </a>
               </div>
               <div className="Banner_box_number-Contact">
                 <p>Ligue-nos</p>
-                <p>+351 932 015 787</p>
+                <p>+351 934 897 540</p>
               </div>
             </div>
           </div>

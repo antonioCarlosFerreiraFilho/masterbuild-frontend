@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="Contact_content">
           <div>
             <h1>Contato</h1>
-            <p>(11)3456-7890</p>
+            <p>(+351) 934 897 540</p>
             <p>MasterBuild.info@gmail.com</p>
           </div>
           <div>
@@ -24,7 +24,7 @@ const Contact = () => {
             <h1>Horario</h1>
             <p>Seg a Sex: 24H</p>
             <p>Sabado: 24H</p>
-            <p>Domingo: 12:00 as 00:00</p>
+            <p>Fechado aos Domingos</p>
           </div>
           <div>
             <h1>Redes sociais</h1>
