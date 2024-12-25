@@ -81,8 +81,9 @@
     color: rgb(26, 25, 25);
 
     font-family: "Bebas Neue", sans-serif;
-
-    letter-spacing: 2px;
+    font-size: 1.1rem;
+    text-decoration: underline rgb(103, 103, 196);
+    letter-spacing: 1px;
   }
 
   .CardProject_linkCard-id {
@@ -122,8 +123,6 @@
 
   .CardProject_boxes-content {
 
-   
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -149,6 +148,11 @@
   .CardProject_boxes-content {
 
     max-width: 1500px;
+  }
+
+  .CardProject_content-nameCard h1 {
+
+    font-size: 1.3rem;
   }
 
 }
